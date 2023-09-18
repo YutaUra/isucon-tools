@@ -1,0 +1,13 @@
+{
+  "name": "isucon-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish-packages": "turbo run build --filter='./packages/*' && changeset version && changeset publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "YutaUra",
+  "license": "ISC"
+}
